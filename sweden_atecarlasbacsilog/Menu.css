@@ -1,0 +1,39 @@
+@font-face {
+  src: url("fonts/BebasNeue-Regular.ttf");/*For "Ate Carla's"*/
+}
+
+.silog-container {
+  font-family: Bebas Neue;
+  margin-top: 12rem;
+}
+
+.silog-header {
+  font-size: 60px;
+  text-align: center;
+  color: RGBA(104,104,104,0.5);
+}
+
+.silog-col img {
+  width:  290px;
+  height: 290px;
+  object-fit: cover;
+  padding: 5px;
+  margin: 1rem 0 1rem 0;
+  border-radius: 1rem;
+}
+
+.silog-col h2 {
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+}
+
+.silog-col h4 {
+  margin-left: 0.5rem;
+  color: crimson;
+}
+
+.silog-col p {
+  margin:0 3.6rem 0 0.5rem;
+  text-align: justify;
+  font-size: 21px;
+}

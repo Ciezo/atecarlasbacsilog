@@ -1,0 +1,18 @@
+.fb img, .ig img {
+  border: 5px solid black;
+  margin-top: 12rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+.ig img {
+  margin-top: 6rem;
+}
+
+area:focus {
+  border: none;
+  outline-style: none;
+}

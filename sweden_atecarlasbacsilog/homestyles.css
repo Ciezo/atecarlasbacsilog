@@ -1,0 +1,118 @@
+/*============================================================================*/
+									/* H O M E P A G E /*
+/*============================================================================*/
+/*The whole main content on screen between header and footer*/
+.main-content-wrapper{
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0px;
+}
+
+/*This is the landing cover home page that is slideshow and clickable*/
+.landing-moving-top-holder{
+	position:relative;
+	z-index: 9;
+	width: 100%;
+  height: 1000px;
+	overflow:hidden
+}
+
+.landing-moving-top-cover img{
+	/*Shadow properties: horizontal vertical blur color*/
+  position:absolute;
+	filter: drop-shadow(0px 0px 30px rgb(0, 0, 0, 0.3));
+	width:100%;
+	height:100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: white;
+  filter: opacity(70%);
+}
+
+.transition {
+  -webkit-animation-name: transition;
+  -webkit-animation-duration: 1s;
+  animation-name: transition;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes transition {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes transition {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.main-content-wrapper .testimony-wrap{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.main-content-wrapper .testimony-wrap .testimony{
+  text-align: justify;
+  margin: 0px 300px 200px 300px;
+  max-width: 1000px;
+}
+
+
+.main-content-wrapper .testimony-wrap .testimony h1{
+    font-family: Generator Personal Use;
+    font-size: 100px;
+    letter-spacing: 4px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    text-align: center;
+    color: red;
+}
+
+.main-content-wrapper .testimony-wrap .testimony h4{
+  font-family: Roboto Slab;
+  text-align:left;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: red;
+}
+
+.main-content-wrapper .testimony-wrap .testimony p{
+  font-family: Helvetica;
+  font-size: 22px;
+  line-height: 40px;
+  text-indent: 20px;
+  padding-bottom: 150px;
+}
+
+.main-content-wrapper .testimony-wrap .testimony img{
+  float: left;
+  max-width: 500px;
+  margin-right: 50px;
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0, 0.5));
+}
